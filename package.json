@@ -1,0 +1,24 @@
+{
+  "name": "backlog-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backup": "node backup.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.22.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.22.0",
+  "type": "module",
+  "dependencies": {
+    "backlog-exporter": "^1.3.0"
+  }
+}

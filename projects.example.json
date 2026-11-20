@@ -1,0 +1,13 @@
+{
+  "domain": "example.backlog.jp",
+  "outputDir": "./backup",
+  "defaults": {
+    "targets": ["issues", "wiki", "documents"],
+    "prune": false
+  },
+  "projects": [
+    { "projectIdOrKey": "PROJ_A" },
+    { "projectIdOrKey": "PROJ_B", "targets": ["issues", "wiki"] },
+    { "projectIdOrKey": "PROJ_C" }
+  ]
+}
